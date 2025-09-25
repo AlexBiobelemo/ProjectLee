@@ -8,8 +8,7 @@ numpy>=1.21.0
 # Visualization
 plotly>=5.15.0
 
-# Database
-sqlite3>=3.35.0  # Usually built-in, but included for clarity
+pysqlite3-binary
 
 # Date/Time Handling
 python-dateutil>=2.8.0
