@@ -1584,7 +1584,7 @@ class ProFinancialDashboard:
                     page = self.pro_sidebar()
                     
                     # Route to appropriate page with error handling
-                    if page == " Pro Dashboard":
+                    if page == "Pro Dashboard":
                         self.pro_dashboard_page()
                     elif page == " Advanced Trading":
                         self.advanced_trading_page()
@@ -1734,3 +1734,4 @@ def main():
 # Run the Pro Dashboard
 if __name__ == "__main__":
     main()
+
