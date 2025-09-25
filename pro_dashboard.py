@@ -1586,13 +1586,13 @@ class ProFinancialDashboard:
                     # Route to appropriate page with error handling
                     if page == "Pro Dashboard":
                         self.pro_dashboard_page()
-                    elif page == " Advanced Trading":
+                    elif page == "Advanced Trading":
                         self.advanced_trading_page()
-                    elif page == " Technical Analysis":
+                    elif page == "Technical Analysis":
                         self.technical_analysis_page()
-                    elif page == " Risk Analytics":
+                    elif page == "Risk Analytics":
                         self.risk_analytics_page()
-                    elif page == " Market Intelligence":
+                    elif page == "Market Intelligence":
                         self.market_intelligence_page()
                     else:
                         st.error(f" Unknown page: {page}")
@@ -1734,4 +1734,5 @@ def main():
 # Run the Pro Dashboard
 if __name__ == "__main__":
     main()
+
 
